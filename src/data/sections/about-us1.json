@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "image1": "/img/blog/personas_dinero.jpg",
+  "image2": "/img/blog/ubuntu.jpg",
+  "image3": "/img/blog/financiamiento.jpg",
+  "smallTitle": "",
+  "title": { "first": "ABANTU está inspirado en la filosofía UBUNTU", "second": "soy porque nosotros somos." },
+  "content": "Una filosofía de las tribus africanas Zulú y Xhosa enfocada en el TRABAJO EN EQUIPO, COLABORACIÓN y SOLIDARIDAD. UBUNTU es una filosofía que nos enseña que la humanidad está interconectada y que la felicidad y el éxito de uno dependen del bienestar de todos. En ABANTU, creemos que la colaboración y la solidaridad son la clave para el éxito y la felicidad de todos. Por eso, trabajamos juntos para crear un mundo mejor para todos.",
+  "features": [
+    {
+      "id": 1,
+      "icon": "gleam",
+      "name": { "first": "Pixel", "second": "Perfect" },
+      "wowDelay": ".3s"
+    },
+    {
+      "id": 2,
+      "icon": "paint-bucket",
+      "name": { "first": "Creative", "second": "Design" },
+      "wowDelay": ".5s"
+    },
+    {
+      "id": 3,
+      "icon": "medal",
+      "name": { "first": "Heigh", "second": "Perfomance" },
+      "wowDelay": ".8s"
+    }
+  ]
+}
