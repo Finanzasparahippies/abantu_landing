@@ -1,7 +1,19 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/aviso-privacidad": "pages/aviso-privacidad.html",
+  "/clasificacion": "pages/clasificacion.html",
+  "/contacto": "pages/contacto.html",
+  "/detalle-noticia": "pages/detalle-noticia.html",
+  "/equipos": "pages/equipos.html",
+  "/estadisticas": "pages/estadisticas.html",
+  "/galeria": "pages/galeria.html",
+  "/home": "pages/home.html",
+  "/imagenes-galeria": "pages/imagenes-galeria.html",
+  "/": "pages/index.html",
+  "/noticias": "pages/noticias.html",
+  "/quienes-somos": "pages/quienes-somos.html",
+  "/videos-galeria": "pages/videos-galeria.html",
   "/_error": "pages/_error.js",
-  "/home": "pages/home.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

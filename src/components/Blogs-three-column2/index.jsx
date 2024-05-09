@@ -23,7 +23,7 @@ const BlogsThreeColumn2 = ({ subBG }) => {
     <section className={`blog-grid section-padding ${subBG ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="sec-head custom-font text-center">
-          <h6 className="wow fadeIn" data-wow-delay=".5s" style={{ color:"#FFFFFF"}}>
+          <h6 className="wow fadeIn py-6" data-wow-delay=".5s" style={{ color:"#FFFFFF"}}>
             Mantente al tanto
           </h6>
           <Split>
