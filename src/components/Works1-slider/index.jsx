@@ -21,7 +21,7 @@ const Works1Slider = () => {
             <div className="swiper-container">
               <Swiper
                 className="swiper-wrapper"
-                slidesPerView={3}
+                slidesPerView={1}
                 centeredSlides={true}
                 loop={true}
                 navigation={{
@@ -57,15 +57,19 @@ const Works1Slider = () => {
                     spaceBetween: 0,
                   },
                   767: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 0,
                     centeredSlides: false,
                   },
                   991: {
-                    slidesPerView: 3,
+                    slidesPerView: 1,
                     spaceBetween: 0,
                     centeredSlides: true,
-                    left: "50px",
+                  },
+                  1100: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    centeredSlides: true,
                   },
                 }}
               >
@@ -79,7 +83,7 @@ const Works1Slider = () => {
                       <div
                         className="item-img bg-img wow imago animate__fadeIn"
                         style={{
-                          width: "380px",
+                          width: "350px",
                           height: "680px",
                           backgroundColor:"#05e09c",
                           // backgroundImage: `url(${slide.img})`,

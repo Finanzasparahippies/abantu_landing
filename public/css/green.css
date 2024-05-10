@@ -1323,7 +1323,7 @@ body {
   width: 100%;
   background: transparent;
   border-bottom: 2px solid transparent;
-  z-index: 999;
+  z-index: 90;
   min-height: 80px; }
   .navbar .icon-bar {
     color: #fff;
@@ -1472,7 +1472,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999999;
+  z-index: 999;
   padding: 30px 0;
   color: #fff;
   -webkit-transition: all .7s;
@@ -1728,7 +1728,9 @@ body {
     left: 0;
     right: 0; }
   .slider .swiper-slide-active {
-    z-index: 3; }
+    z-index: 3;
+    align-items: center;
+  }
   .slider .parallax-slider {
     position: relative; }
     .slider .parallax-slider .swiper-slide {
@@ -2008,8 +2010,8 @@ header.simpl {
     overflow: hidden; }
 
 .cta__slider-arrows {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   bottom: 40px;
   right: 40px;
   z-index: 2; }
@@ -2038,7 +2040,7 @@ header.simpl {
     top: 0; }
     .cta__slider-item .media-wrapper .bg-img {
       position: absolute;
-      width: 70%;
+      width: 80%;
       height: 100%;
       right: 0;
       top: 0; }
@@ -2344,7 +2346,9 @@ header.simpl {
   height: 75vh; }
   .pages-header .cont h1 {
     font-size: 75px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center;
+  }
   .pages-header .cont .path {
     color: #fff;
     font-size: 17px; }
@@ -5371,9 +5375,15 @@ header.simpl {
       color: #fff;
       -webkit-text-stroke: 0px #fff; } }
 
-@media screen and (max-width: 480px) {
-
-
+@media screen and (max-width: 380px) {
+  .about .img-mons .img1 img, .about .img-mons .img2 img, .about .img-mons .img3 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: left;
+    margin: auto; 
+    position: relative;
+}
 }
 
 /* ====================== [ End Responsive ] ====================== */

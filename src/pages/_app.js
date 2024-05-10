@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>ABANTU.mx</title>
-        <link rel="icon" href="/" />
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />

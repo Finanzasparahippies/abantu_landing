@@ -87,6 +87,13 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="/preguntas-frecuentes">
+                <a className="nav-link">
+                  Preguntas Frecuentes
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
               <ScrollLink
                 to="contact"
                 spy={true}

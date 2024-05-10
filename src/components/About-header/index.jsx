@@ -15,7 +15,7 @@ const AboutHeader = () => {
               <div className="path">
                 <a href="/">Inicio</a>
                 <span>/</span>
-                <a href="/aviso-privacidad#preguntas" className="active">
+                <a href="/preguntas-frecuentes" className="active">
                   Preguntas Frecuentes
                 </a>
               </div>

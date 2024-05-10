@@ -14,7 +14,7 @@ const AboutUs1 = () => {
                 <div className="col-md-2 cmd-padding valign">
                 </div>
                 <div className="col-md-7 cmd-padding">
-                  <div className="img2 wow imago" data-wow-delay=".3s" style={ {  alignContent:"center", width:"380px", height:"400px" } }>
+                  <div className="img2 wow imago" data-wow-delay=".3s" style={ {  alignContent:"center", width:"340px", height:"400px" } }>
                     <img src={AboutUs1Date.image2} alt="" />
                   </div>
                 </div>

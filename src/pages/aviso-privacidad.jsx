@@ -42,7 +42,7 @@ const AboutDark = () => {
       {/* <Team1 /> */}
       {/* <MinimalArea /> */}
       {/* <Clients1 theme="dark" /> */}
-      <AboutWithSkills/>
+      {/* <AboutWithSkills/> */}
       <TerminosyCondiciones/>
       <Footer />
     </DarkTheme>

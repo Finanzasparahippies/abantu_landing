@@ -4618,6 +4618,7 @@ tbody.collapse.show {
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+    max-width: 100%;
   }
 }
 
@@ -4640,7 +4641,7 @@ tbody.collapse.show {
   }
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
+    position: relative;
   }
 
   .navbar-expand-lg .navbar-nav .dropdown-menu-right {

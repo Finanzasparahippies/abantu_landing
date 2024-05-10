@@ -21,6 +21,7 @@ const Styles = {
   p: {
     margin: "10px 0",
     fontSize: "1rem",
+    textAlign:"center"
 },
   h2: {
     fontSize: "1.5rem",

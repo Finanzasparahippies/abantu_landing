@@ -19,7 +19,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Liga Master Hermosillo de Veteranos"
+            content="El momento de hacer la diferencia es ahora - ABANTU"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/home" />
