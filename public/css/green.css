@@ -1728,8 +1728,9 @@ body {
     left: 0;
     right: 0; }
   .slider .swiper-slide-active {
-    z-index: 3;
+    z-index: 1;
     align-items: center;
+    text-align: center;
   }
   .slider .parallax-slider {
     position: relative; }
@@ -4947,6 +4948,12 @@ header.simpl {
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+
+  .pages-header .cont h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
   .bg-img {
     background-position: center !important; }

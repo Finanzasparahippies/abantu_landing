@@ -20,7 +20,7 @@ const Navbar = ({ lr, nr, theme }) => {
         theme === "themeL" ? "light" : ""
       }`}
     >
-      <div className="container" style={{ display: "flex", "justifyContent": "space-between", width: "100%" }}>
+      <div className="container" style={{ display: "flex", "justifyContent": "space-between" }}>
         <Link href="/">
           <a className="logo">
             {theme ? (
