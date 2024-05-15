@@ -11,6 +11,7 @@ class Testimonials1 extends React.Component {
   constructor(props) {
     super(props);
   }
+
   renderArrows = () => {
     return (
       <div className="arrows">

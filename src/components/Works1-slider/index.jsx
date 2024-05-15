@@ -67,7 +67,7 @@ const Works1Slider = () => {
                     centeredSlides: true,
                   },
                   1100: {
-                    slidesPerView: 1,
+                    slidesPerView: 3,
                     spaceBetween: 0,
                     centeredSlides: true,
                   },
