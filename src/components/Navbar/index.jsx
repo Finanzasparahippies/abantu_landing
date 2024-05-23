@@ -101,9 +101,9 @@ const Navbar = ({ lr, nr, theme }) => {
                 offset={-70}
                 duration={500}  
               >
-                <a className="nav-link">
+                {/* <a className="nav-link">
                   Contacto
-                </a>
+                </a> */}
               </ScrollLink>
             </li>
           </ul>
