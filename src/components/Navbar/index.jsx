@@ -72,7 +72,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li> */}
             <li className="nav-item">
-              <Link href="https://comunidad.abantu.mx/inicio/">
+              <Link href="https://comunidad.abantu.mx/">
                 <a className="nav-link">
                   Iniciar Sesión/ Registrarse
                 </a>

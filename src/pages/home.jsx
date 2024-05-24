@@ -47,11 +47,11 @@ const Homepage4 = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider1 sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
-        <BlogsThreeColumn2 subBG/>
+        {/* <BlogsThreeColumn2 subBG/> */}
         <AboutUs/>
+        <VideoInicio />
         <Works1Slider/>
         <Services1/>
-        <VideoInicio />
         <Footer id = "footer-half"/>
       </div>
     </DarkTheme>

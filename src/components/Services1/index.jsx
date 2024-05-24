@@ -36,7 +36,7 @@ const Services1 = () => {
             data-wow-delay=".5s"
           >
             {/* <span className="icon pe-7s-paint-bucket"></span> */}
-            <img src="/img/logos/network.png" alt="icon" style={ { width:"100px"}}/>
+            <img src="/img/logos/network.png" alt="icon" style={ { width:"100px", height:"45%"}}/>
             <h6>Colaboración Comunitaria</h6>
             <p>
             En ABANTU creemos que a través de la colaboración en comunidad nos podemos ayudar de manera genuina.            </p>
@@ -46,7 +46,7 @@ const Services1 = () => {
             data-wow-delay=".7s"
           >
             {/* <span className="icon pe-7s-phone"></span> */}
-            <img src="/img/logos/hand.png" alt="icon" style={ { width:"100px"}}/>
+            <img src="/img/logos/hand.png" alt="icon" style={ { width:"100px", height:"45%"}}/>
             <h6>
               Ingresos Extras
             </h6>
@@ -57,7 +57,7 @@ const Services1 = () => {
             data-wow-delay=".9s"
           >
             {/* <span className="icon pe-7s-display1"></span> */}
-            <img src="/img/logos/financial-profit.png" alt="icon" style={ { width:"100px"}}/>
+            <img src="/img/logos/financial-profit.png" alt="icon" style={ { width:"100px", height:"45%"}}/>
             <h6>
             Flujo de Efectivo
             </h6>

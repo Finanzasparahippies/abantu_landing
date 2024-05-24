@@ -146,7 +146,7 @@ const Works1Slider = () => {
                 ))}
               </Swiper>
 
-              <div
+              {/* <div
                 ref={navigationNextRef}
                 className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer"
               >
@@ -157,7 +157,7 @@ const Works1Slider = () => {
                 className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer"
               >
                 <span className="simple-btn" style={{ marginLeft: "auto"}}>Anterior</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -59,16 +59,19 @@ const VideoInicio = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="vid-area">
-                                <div className="vid-icon" style={ { position:"relative" }}>
+                            <div className="vid-area" style={{ position: "relative" }}>
+                                <div>
+                                    <img className="video-bg" src="/img/Landings/imagen-video.jpg" alt="video" />
+                                </div>
+                                <div className="vid-icon">
                                     {typeof window !== "undefined" && (
                                         <ModalVideo
-                                            channel="youtube"
-                                            autoplay
-                                            isOpen={isOpen}
-                                            videoId={videos[0]?.url.split("v=")[1]}
-                                            onClose={() => setOpen(false)}
-                                            style={{ zIndex: 1 }}
+                                        channel="youtube"
+                                        autoplay
+                                        isOpen={isOpen}
+                                        videoId={videos[0]?.url.split("v=")[1]}
+                                        onClose={() => setOpen(false)}
+                                        style={{ zIndex: 1 }}
                                         />
                                     )}
                                     <a
@@ -78,7 +81,7 @@ const VideoInicio = () => {
                                             setOpen(true);
                                         }}
                                         href="https://www.youtube.com/watch?v=u2KXu6RQ2Ys"
-                                    >
+                                        >
                                         <div className="vid-butn">
                                             <span className="icon">
                                                 <i className="fas fa-play" style={ { color: "#05e09c"}} ></i>
