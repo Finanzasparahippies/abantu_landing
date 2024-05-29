@@ -38,32 +38,47 @@ const VideoInicio = () => {
         {
             id: 1,
             texto: "Así se forman las Redes de Contribución ABANTU",
-            url: "https://www.youtube.com/watch?v=_89SJbL1dek",
+            url: "https://www.youtube.com/watch?v=u2KXu6RQ2Ys",
             image: "/img/logos/coingrow.jpg",
         },
     ];
 
     return (
-      console.log(videos),
+        console.log(videos),
         <section className="block-sec">
             <div
                 className="background bg-img section-padding pb-3"
                 style={{
                     backgroundImage: `url(${videos[0]?.image})`,
+                    backgroundColor: "#ffffff",
                     backgroundPosition: "center",
                     width: "100%",
                     height: "100%",
-                    backgroundSize: "cover",  }}
+                    backgroundSize: "cover",
+                }}
                 data-overlay-dark="8"
             >
-                <div className="container">
+                <div className="container" style={ { padding:"80px"}}>
                     <div className="row">
+                        <div className="col-lg-6">
+                            <div className="text-area" style={{ position: "relative" }}>
+                                <div className="cont">
+                                    <Split>
+                                        <div>
+                                            <h2 id="video-text" className="wow" data-splitting style={{ textAlign: "center", alignContent: "center", position: "relative", color: "#000 !important" }}>
+                                                {videos[0]?.texto}
+                                            </h2>
+                                        </div>
+                                    </Split>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-lg-6">
                             <div className="vid-area" style={{ position: "relative" }}>
                                 <div>
-                                    <img className="video-bg" src="/img/Landings/imagen-video.jpg" alt="video" />
+                                <img className="video-bg" src="/img/Landings/imagen-video.jpg" alt="video" style={{ width: "100%", height: "auto", maxWidth: "500px", borderRadius:"25px" }} />
                                 </div>
-                                <div className="vid-icon">
+                                <div className="vid-icon" >
                                     {typeof window !== "undefined" && (
                                         <ModalVideo
                                         channel="youtube"
@@ -71,8 +86,16 @@ const VideoInicio = () => {
                                         isOpen={isOpen}
                                         videoId={videos[0]?.url.split("v=")[1]}
                                         onClose={() => setOpen(false)}
+                                        config={{
+                                            youtube: {
+                                                embedOptions: {
+                                                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                                    allowfullscreen: true,
+                                                }
+                                            }
+                                        }}
                                         style={{ zIndex: 1 }}
-                                        />
+                                    />
                                     )}
                                     <a
                                         className="vid"
@@ -81,27 +104,17 @@ const VideoInicio = () => {
                                             setOpen(true);
                                         }}
                                         href="https://www.youtube.com/watch?v=u2KXu6RQ2Ys"
-                                        >
+                                    >
                                         <div className="vid-butn">
                                             <span className="icon">
-                                                <i className="fas fa-play" style={ { color: "#05e09c"}} ></i>
+                                                <i className="fas fa-play" style={{ color: "#05e09c" }}></i>
                                             </span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <div className="cont">
-                                    <Split>
-                                      <div >
-                                        <h3 className="wow" data-splitting style={{ textAlign:"center", alignContent:"center", position:"relative" }}>
-                                            {videos[0]?.texto}
-                                        </h3>
-                                      </div>
-                                    </Split>
-                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-5 offset-lg-1">
+                        <div className="col-lg-1 offset-lg-1">
                         </div>
                     </div>
                 </div>

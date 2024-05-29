@@ -74,8 +74,9 @@ body {
     background: #05E09C; }
 
 img {
-  width: 200px;
-  height: 100px; }
+  width: 158px;
+  height: 82px; }
+
 
 span, a, a:hover {
   display: inline-block;
@@ -88,7 +89,9 @@ h2 {
   font-size: 40px; }
 
 h3 {
-  font-size: 35px; }
+  font-size: 35px;
+  color:#000;
+}
 
 h4 {
   font-size: 30px; }
@@ -116,20 +119,19 @@ a, span {
   a:hover, span:hover {
     text-decoration: none; }
 
-.video-bg {
+img .video-bg {
   position: "relative";
-  width: "100%";
-  height: "100%";
+  width: "100%"!important;
+  height: "300px";
   object-fit: "cover";
   z-index: 0;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .vid-icon {
   position: absolute;
-  top: 5%;
-  left: 76%;
-  /* transform: translate(-50%, -50%); */
+  top: 35%;
+  left: 42%;
   z-index: 1;
   opacity: 85%;
 }
@@ -143,6 +145,11 @@ a, span {
   opacity: 85%;
 
 }
+
+.text-area h3#video-text {
+  color: #000 !important;
+}
+
   
 
 .container {
@@ -1066,8 +1073,8 @@ body {
   left: 0;
   z-index: 1; }
 
-[data-overlay-dark]:before {
-  background: #02050b; }
+/* [data-overlay-dark]:before {
+  background: #02050b; } */
 
 [data-overlay-light]:before {
   background: #fff; }
@@ -4131,10 +4138,10 @@ header.simpl {
   border-radius: 50%;
   text-align: center;
   line-height: 80px;
-  position: relative; }
+  position: absolute; }
   .block-sec .vid-area .vid-icon .vid:after {
     content: '';
-    position: relative;
+    position: absolute;
     top: -10px;
     left: 50%;
     bottom: -10px;
@@ -5185,7 +5192,28 @@ header.simpl {
     margin-bottom: 50px; }
   .next-prog .box .caption h1,
   .next-prog .box .copy-cap h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+    .vid-area {
+      max-width: 80%;
+      margin: auto;
+  }
+  .vid-icon {
+      font-size: 2.5rem; /* Ajusta el tamaño del icono en tablets */
+  }
+
+  .vid-butn {
+      font-size: 2.5rem; /* Ajusta el tamaño del botón */
+  }
+
+  .text-area {
+      padding: 30px; /* Ajusta el padding para tablets */
+  }
+
+  .text-area h3#video-text {
+      font-size: 1.5rem; /* Ajusta el tamaño del texto */
+  } 
+  
+  }
 
 @media screen and (max-width: 767px) {
   .sm-mb10 {
@@ -5346,6 +5374,26 @@ header.simpl {
   .vid-butn {
       font-size: 24px;
   }
+  .vid-area {
+    max-width: 100%;
+    margin: auto;
+}
+
+.vid-icon {
+    font-size: 2rem; /* Reduce el tamaño del icono en dispositivos móviles */
+}
+
+.vid-butn {
+    font-size: 2rem; /* Ajusta el tamaño del botón */
+}
+
+.text-area {
+    padding: 20px; /* Ajusta el padding para dispositivos móviles */
+}
+
+.text-area h3#video-text {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+}
   }
 
 @media screen and (max-width: 480px) {
@@ -5420,23 +5468,56 @@ header.simpl {
       display: inline-block;
       color: #fff;
       -webkit-text-stroke: 0px #fff; }
-      .block-sec .vid-area .vid-icon .vid {
-        position: absolute;
-        top: 40px;
-        left: -115px;
+      .block-sec .vid {
+        position: relative;
+        top: 20px;
+        left: 40px;
         width: 60px;
         height: 60px;
     }
-    .vid-butn {
-        font-size: 20px;
-    }
-    .video-bg {
-      position: relative;
-      top: 33px;
-      left: -73px;
-    }
+    .vid-area {
+      max-width: 100%;
+      margin: auto;
+  }
 
-    }
+  .vid-icon {
+      position: relative;
+      top: 20px;
+      left: 50px;
+      width: 60px;
+      height: 60px;
+      transform: none; /* Elimina la transformación para un posicionamiento específico */
+      font-size: 20px; /* Ajusta el tamaño del icono */
+  }
+
+  .vid-butn {
+      font-size: 20px; /* Ajusta el tamaño del botón */
+  }
+
+  .video-bg {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%; /* Asegura que la imagen de fondo se ajuste al contenedor */
+      height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  .text-area {
+      padding: 20px; /* Ajusta el padding para dispositivos móviles */
+  }
+
+  .text-area h3#video-text {
+      font-size: 1.2rem; /* Ajusta el tamaño del texto */
+  }
+
+  .fa-play {
+    font-size: 20px;
+    position: absolute;
+    top: 12px
+  }
+}
+
+
 
 @media screen and (max-width: 380px) {
   .about .img-mons .img1 img, .about .img-mons .img2 img, .about .img-mons .img3 img {
@@ -5448,5 +5529,26 @@ header.simpl {
     position: relative;
 }
 }
+
+#flecha-gif {
+  width: "100px";
+}
+
+@media (max-width: 768px) {
+  #flecha-gif {
+    transform: rotate(90deg);
+    width: 50px;
+  }
+  .vid-butn {
+    font-size: 20px;
+  }
+  .fa-play {
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+  }
+}
+
 
 /* ====================== [ End Responsive ] ====================== */
