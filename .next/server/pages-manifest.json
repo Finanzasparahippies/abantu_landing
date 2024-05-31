@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/aviso-de-privacidad": "pages/aviso-de-privacidad.html",
+  "/blog-details": "pages/blog-details.html",
+  "/blog": "pages/blog.html",
+  "/": "pages/index.html",
+  "/terminos-y-condiciones": "pages/terminos-y-condiciones.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
