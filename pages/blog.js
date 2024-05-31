@@ -14,7 +14,7 @@ const Blog = () => {
       <BlogPage />
       <Subscribe />
       <Footer />
-      <MobileNavInner />
+      <MobileNavInner /> 
     </Layout>
   );
 };
