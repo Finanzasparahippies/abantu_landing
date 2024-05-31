@@ -61,7 +61,7 @@ import videoBG from "@images/video.png";
 export const VIDEO_DATA = {
   title: "Así se forman las Redes de Contribución ABANTU",
   image: videoBG,
-  videoID: "Kl5B6MBAntI"
+  videoID: "u2KXu6RQ2Ys"
 };
 
 import appFeature1 from "@images/ubuntu.jpg";
