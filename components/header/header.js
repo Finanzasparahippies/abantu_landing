@@ -33,6 +33,13 @@ const Header = () => {
       });
     });
 
+    document.querySelectorAll(".side-menu__toggler2").forEach((btn) => {
+      btn.addEventListener("click", function (e) {
+        document.querySelector(".side-menu__block").classList.toggle("active");
+        e.preventDefault();
+      });
+    });
+
     //Close Mobile Menu
     let sideMenuCloser = document.querySelectorAll(
       ".side-menu__close-btn, .side-menu__block-overlay"
@@ -45,6 +52,7 @@ const Header = () => {
       });
     });
   };
+
   return (
     <>
       <header className={`site-header-one stricky site-header-one__fixed-top `} id="inicio">
