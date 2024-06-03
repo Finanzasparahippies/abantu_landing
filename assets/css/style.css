@@ -1529,7 +1529,7 @@ li {
 }
 
 .banner-one__content {
-  padding-top: 198px;
+  padding-top: 498px;
 }
 
 .banner-one__content h3 {
@@ -1551,7 +1551,6 @@ li {
 .banner-img {
   position: relative;
   display: block;
-  max-width: 370px;
   float: right;
   width: 100%;
   padding-top: 105px;
