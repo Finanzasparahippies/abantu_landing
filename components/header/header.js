@@ -6,6 +6,7 @@ import NavLinks2 from "./nav-links2";
 import logo2 from "@images/abanti2.png";
 
 const Header = () => {
+  
   const [sticky, setSticky] = useState(false);
 
   const handleScroll = () => {

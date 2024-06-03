@@ -1,15 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import { Row, Col, Container } from "react-bootstrap";
-import shape from "@images/shapes/cta-2-shape-1.png";
 import { APP_FEATURE_DATA } from "@data/index";
+
 const AppFeature = () => {
+
   const { sectionTitle, image, paragraph, options, button } = APP_FEATURE_DATA;
+  
   return (
-    <section className="cta-two" id="filosofia" style={{paddingTop: "40px"}}>
-      <Container>
+    <section className="cta-two" id="filosofia" style={{paddingTop: "80px"}}>
+      <Container >
         <Row>
-          <Col xl={6} className="col-xl-6">
+          <Col xl={6} className="col-xl-6" >
             <div className="cta-two__content">
               <div className="block-title cus-pb">
                 <p>{sectionTitle.text}</p>

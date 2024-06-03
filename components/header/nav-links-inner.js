@@ -24,8 +24,8 @@ const NavLinksInner = () => {
         </Link>
       </li>
       <li>
-        <Link href="/#caracteristicas">
-          <a>Características</a>
+        <Link href="/#video">
+          <a>Así se forman las Redes</a>
         </Link>
       </li>
       <li>

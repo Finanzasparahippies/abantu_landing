@@ -5,13 +5,15 @@ import { PRICING_DATA } from "@data/index";
 import PriceCard from "./price-card";
 
 const PriceHome = () => {
+
   const [plan, setPlan] = useState({
     name: "monthly"
   });
+  
   const { sectionTitle, monthly, yearly } = PRICING_DATA;
 
   return (
-    <section id="redes" className="pricing-one">
+    <section id="redes" className="pricing-one" style={{paddingTop: "80px"}}>
       <div
         className="pricing-one-shape-1"
         style={{ backgroundImage: `url(${bgImage})` }}

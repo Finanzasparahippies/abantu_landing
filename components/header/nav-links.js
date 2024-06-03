@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 
-const NavLinks = () => {  
+const NavLinks = () => {
+  
   return (
     <ul className="main-nav__navigation-box one-page-scroll-menu">
       <li>
@@ -44,13 +45,13 @@ const NavLinks = () => {
       <li>
         <ScrollLink
           activeClass="current"
-          to="caracteristicas"
+          to="video"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Características
+          Así se forman las Redes
         </ScrollLink>
       </li>
       <li>

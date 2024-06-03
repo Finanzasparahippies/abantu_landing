@@ -3,18 +3,22 @@ import ModalVideo from "react-modal-video";
 import { VIDEO_DATA } from "@data/index";
 
 const Video = () => {
+
   const [open, setOpen] = useState({
     isOpen: false
   });
+
   const openModal = (e) => {
     e.preventDefault();
     setOpen({
       isOpen: true
     });
   };
+
   const { title, image, videoID } = VIDEO_DATA;
+  
   return (
-    <section className="video-one">
+    <section className="video-one" id="video" style={{paddingTop: "80px"}}>
       <div className="video-title">
           <h2>{title}</h2>
         </div>

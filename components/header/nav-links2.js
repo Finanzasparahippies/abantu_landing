@@ -44,13 +44,13 @@ const NavLinks2 = () => {
       <li>
         <ScrollLink
           activeClass="current"
-          to="caracteristicas"
+          to="video"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Características
+          Así se forman las Redes
         </ScrollLink>
       </li>
       <li>

@@ -6,10 +6,10 @@ const FaqCard = ({ status, title, text }) => {
     setActive(!active);
   };
   return (
-    <div className={`accrodion ${active === true ? "active" : " "}`}>
+    <div className={`accrodion ${active === true ? "active" : " "}`} onClick={handleClick}>
       <div className="accrodion-inner">
         <div className="accrodion-title">
-          <h4 onClick={handleClick}>{title}</h4>
+          <h4>{title}</h4>
         </div>
         {active == true ? (
           <div className="accrodion-content animated fadeInUp">
