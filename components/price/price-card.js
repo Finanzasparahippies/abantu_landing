@@ -23,11 +23,6 @@ const PriceCard = ({
       <ul className="list-unstyled pricing-one__list">
         <p>{options}</p>
       </ul>
-      <Link href={button.link}>
-        <a className="thm-btn pricing-one__btn">
-          <span>{button.label}</span>
-        </a>
-      </Link>
     </div>
   );
 };
