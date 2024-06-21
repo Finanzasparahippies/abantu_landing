@@ -148,13 +148,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // This default export is required in a new `pages/_app.js` file.
 
+
+// This default export is required in a new `pages/_app.js` file.
 function MyApp({
   Component,
   pageProps
 }) {
-  return __jsx(Component, pageProps);
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=G-ZN0Y3Z0XPW"
+  }), __jsx("script", {
+    dangerouslySetInnerHTML: {
+      __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZN0Y3Z0XPW');
+            `
+    }
+  }), __jsx(Component, pageProps));
 }
 
 /***/ }),
