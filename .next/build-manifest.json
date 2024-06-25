@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/djeoL0UD4ToNvS6b0l9v9/_buildManifest.js",
-    "static/djeoL0UD4ToNvS6b0l9v9/_ssgManifest.js"
+    "static/hWDTzeCRHBAWn6f8Qtcqy/_buildManifest.js",
+    "static/hWDTzeCRHBAWn6f8Qtcqy/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -60,7 +60,7 @@
       "static/chunks/commons.a2423bba20ea8c56bde4.js",
       "static/chunks/6193cd0a0528e853cc774af11326189f2c9da13c.6bf21e0856cbc2a8dfde.js",
       "static/chunks/48a20ddd1aadf64054144922939b0fcd097c4ca3.79a57bffde177201b22a.js",
-      "static/chunks/619b61738eb8c00865a749e6309405703d1297be.2e35b675d2be9510ccc7.js",
+      "static/chunks/619b61738eb8c00865a749e6309405703d1297be.88d6cc0f9df3ebb90d86.js",
       "static/chunks/pages/blog-details-1d0a2b6a1a6be0050fac.js"
     ],
     "/terminos-y-condiciones": [
@@ -70,7 +70,7 @@
       "static/chunks/commons.a2423bba20ea8c56bde4.js",
       "static/chunks/6193cd0a0528e853cc774af11326189f2c9da13c.6bf21e0856cbc2a8dfde.js",
       "static/chunks/48a20ddd1aadf64054144922939b0fcd097c4ca3.79a57bffde177201b22a.js",
-      "static/chunks/619b61738eb8c00865a749e6309405703d1297be.2e35b675d2be9510ccc7.js",
+      "static/chunks/619b61738eb8c00865a749e6309405703d1297be.88d6cc0f9df3ebb90d86.js",
       "static/chunks/pages/terminos-y-condiciones-8fdef9956417e9eabefe.js"
     ]
   },
