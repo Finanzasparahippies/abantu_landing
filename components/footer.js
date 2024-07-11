@@ -30,7 +30,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/abantufelicesdeayudar" target="_blank" className="color-2">
+                  <a href="https://www.instagram.com/abantu.mx" target="_blank" className="color-2">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
